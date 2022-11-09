@@ -46,14 +46,21 @@ public class MaquinaExpendedoraSimple {
     public int getBalanceClienteActual() {
         return balanceClienteActual;
     }
-
+    
+    /**
+     * Devuelve el dinero total
+     */
+    public int getTotalDineroAcumulado(){
+        return totalDineroAcumulado;
+    }
+    
     /**
      * Simula la introduccion de dinero por parte del cliente actual
      */
     public void introducirDinero(int cantidadIntroducida) {
         balanceClienteActual = balanceClienteActual + cantidadIntroducida;
     }
-
+    
     /**
      * Imprime un billete para el cliente actual
      */

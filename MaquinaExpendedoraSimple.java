@@ -55,6 +55,13 @@ public class MaquinaExpendedoraSimple {
     }
     
     /**
+     * Cambia el precio del billete
+     */
+    public void setPrecioBillete(int precioDelBillete){
+        this.precioBillete = precioDelBillete;
+    }
+    
+    /**
      * Simula la introduccion de dinero por parte del cliente actual
      */
     public void introducirDinero(int cantidadIntroducida) {

@@ -48,7 +48,7 @@ public class MaquinaExpendedoraSimple {
     }
     
     /**
-     * Devuelve el dinero total
+     * Devuelve el dinero total 
      */
     public int getTotalDineroAcumulado(){
         return totalDineroAcumulado;
@@ -66,6 +66,13 @@ public class MaquinaExpendedoraSimple {
      */
     public void reducirPrecioBillete(int precioDelBillete){
         precioBillete = precioBillete - precioDelBillete; 
+    }
+    
+    /**
+     * Vaciar el deposito de la maquina
+     */
+    public void vaciarDineroDeposito(){
+        totalDineroAcumulado = 0;
     }
     
     /**
